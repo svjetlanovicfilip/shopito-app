@@ -1,0 +1,62 @@
+name: shopito_app
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  go_router: ^14.8.1
+  flutter_bloc: ^9.1.0
+  dio: ^5.8.0+1
+  get_it: ^8.0.3
+  url_launcher: ^6.3.1
+  equatable: ^2.0.7
+  cached_network_image: ^3.3.1
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.4.6
+  flutter_flavorizr: ^2.2.1
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+flavorizr:
+  ide: "vscode"
+  app:
+    android:
+      flavorDimensions: "flavor-type"
+
+  flavors:
+    dev:
+      app:
+        name: "Shopito Dev"
+
+      android:
+        applicationId: "com.example.shopito_app.dev"
+
+      ios:
+        bundleId: "com.example.shopito_app.dev"
+
+    prod:
+      app:
+        name: "Shopito"
+
+      android:
+        applicationId: "com.example.shopito_app"
+
+      ios:
+        bundleId: "com.example.shopito_app"

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "209274187308",
+    "project_id": "shopito-57c0e",
+    "storage_bucket": "shopito-57c0e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209274187308:android:e031a6f180e4701fd66b89",
+        "android_client_info": {
+          "package_name": "com.example.shopito_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbnzR7KvFhLNYM4nL8sU5e79QZdTjac_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
